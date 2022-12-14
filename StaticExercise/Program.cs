@@ -1,10 +1,10 @@
-﻿namespace StaticExercise
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+﻿using System;
+using StaticExercise;
+
+Console.WriteLine($"Fahrenheit to Cencius: {TempConverter.FahrenheitToCelsius(68)}");
+
+Console.WriteLine($"Celsius to Fahrenheit: {TempConverter.CelsiusToFahrenheit(20)}");
+
+
+
+
